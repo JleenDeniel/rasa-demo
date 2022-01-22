@@ -1,0 +1,6 @@
+version: "2.0"
+
+- story: tell about debit card
+  steps:
+  - intent: learn_about_all_products
+  - action: utter_learn_about_all_products

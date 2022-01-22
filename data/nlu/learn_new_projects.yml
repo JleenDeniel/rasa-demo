@@ -1,0 +1,20 @@
+version: "2.0"
+nlu:
+- intent: learn_about_all_products
+  examples: |
+    - Which products do you have?
+    - what do you have?
+    - what can I use?
+- intent: ask_about_debit_card
+  examples: |
+    - Do you have a money card?
+    - do you have debit card?
+    - debit card
+- intent: ask_about_credit_card
+  examples: |
+    - do you have credit card?
+    - credit card
+- intent: ask_about_mortgage
+  examples: |
+    - do you have mortgage?
+    - mortgage

@@ -1,25 +1,22 @@
-# Sara - the Rasa Demo Bot
+# Raifa - bank products bot-helper 
 
 ## :surfer: Introduction
-The purpose of this repo is to showcase a contextual AI assistant built with the open source Rasa framework.
 
-Sara is an alpha version and lives in our docs, 
-helping developers getting started with our open source tools. It supports the following user goals:
+Raifa - bot which created to help you with bank products, made with Rasa framework
 
-- Understanding the Rasa framework
-- Getting started with Rasa
-- Answering some FAQs around Rasa
-- Directing technical questions to specific documentation
-- Subscribing to the Rasa newsletter
-- Requesting a call with Rasa's sales team
-- Handling basic chitchat
+- Get the list of opened products
+- Learn about every existed product in bank
+- Get your balance/owe
+- Open new product
+- Move money from one to another product
+- Ask a question about the tariff
+- Also handling basic chitchat
 
-You can find planned enhancements for Sara in the
-[Project Board](https://github.com/RasaHQ/rasa-demo/projects/1)
+
 
 ## 👷‍ Installation
 
-To install Sara, please clone the repo and run:
+To install Raifa, please clone the repo and run:
 
 ```sh
 cd rasa-demo
@@ -30,7 +27,7 @@ This will install the bot and all of its requirements.
 Note that this bot should be used with python 3.6 or 3.7.
 
 
-## 🤖 To run Sara:
+## 🤖 To run Raifa:
 
 Use `rasa train` to train a model (this will take a significant amount of memory to train,
 if you want to train it faster, try the training command with
@@ -60,7 +57,7 @@ If you would like to run Sara on your website, follow the instructions
 [here](https://github.com/botfront/rasa-webchat) to place the chat widget on
 your website.
 
-## To test Sara:
+## To test Raifa:
 
 After doing a `rasa train`, run the command:
 
