@@ -23,6 +23,9 @@ from actions.api.gdrive_service import GDriveService
 from actions.api.mailchimp import MailChimpAPI
 from actions.api.rasaxapi import RasaXAPI
 
+from .datalake import db
+
+
 USER_INTENT_OUT_OF_SCOPE = "out_of_scope"
 
 logger = logging.getLogger(__name__)
